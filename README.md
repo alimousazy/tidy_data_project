@@ -23,7 +23,7 @@ Tidy data script is a script which clean data produced by phone sensors expermin
 ### steps to run the script 
 - `$cd project-folder`
 - `$R`
-- `source run_analysis.R`
+- `>source run_analysis.R`
   
 Result will be found in tidy_data.txt
 
