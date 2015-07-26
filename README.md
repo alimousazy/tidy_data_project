@@ -19,11 +19,18 @@ Tidy data script is a script which clean data produced by phone sensors expermin
 - [x] From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+### Prerequisite Packages
+
+Please install the following package before running the script
+
+- dplyr
+- data.table
+- reshape2
 
 ### steps to run the script 
 - `$cd project-folder`
 - `$R`
 - `>source run_analysis.R`
   
-Result will be found in tidy_data.txt
+Result will be found in tidy_data.txt, which contains the average of each variable for each activity and each subject.
 
